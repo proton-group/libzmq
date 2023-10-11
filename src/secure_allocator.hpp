@@ -20,7 +20,6 @@ namespace zmq
 template <class T> struct secure_allocator_t
 {
     typedef T value_type;
-
     using other = secure_allocator_t;
 
     secure_allocator_t () ZMQ_DEFAULT;
